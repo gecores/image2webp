@@ -2,6 +2,8 @@
 
 Custom change: Added support for Markdown files.
 
+This project is not available in the Extension gallery. I use it locally.
+
 ## Original Project:
 https://github.com/yylzhixian/image2webp
 
@@ -9,3 +11,7 @@ https://github.com/yylzhixian/image2webp
 
 ## Dependency
 ```npm install --global @vscode/vsce```
+
+## Local Usage
+To deploy for local use:
+```npm run deploy-local```

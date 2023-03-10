@@ -2,14 +2,14 @@
 	"name": "image2webp",
 	"displayName": "image2webp",
 	"description": "convert the images to type of webp",
-	"version": "1.0.0",
-	"publisher": "yylzhixian",
+	"version": "1.0.1",
+	"publisher": "gecco.xyz",
 	"private": true,
 	"license": "MIT",
 	"icon": "icon.png",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/yylzhixian/image2webp"
+		"url": "https://github.com/gecco.xyz/image2webp"
 	},
 	"engines": {
 		"vscode": "^1.32.0"
@@ -37,7 +37,8 @@
 		"webpack": "webpack --mode development && npm run web",
 		"webpack-dev": "webpack --mode development --watch",
 		"lint": "eslint . --ext .ts,.tsx",
-		"web": "node buildWeb.js"
+		"web": "node buildWeb.js",
+		"deploy-local": "npm run package && code --install-extension %npm_package_name%-%npm_package_version%.vsix"
 	},
 	"devDependencies": {
 		"@types/download": "^8.0.1",
