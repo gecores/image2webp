@@ -10,7 +10,7 @@ export default class ImagePathSnippet implements vscode.CodeActionProvider {
         if (!imgObj.filePath) return;
 
         return [
-            this.createItem(imgObj, 75),
+            this.createItem(imgObj, 80),
             this.createItem(imgObj, 50),
             this.createItem(imgObj, 25),
             this.createMoreCommand(imgObj),
