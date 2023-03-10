@@ -8,7 +8,7 @@ import { lazyTips, limitToOne } from "./utils";
 
 export const registerCodeActionsProvider =
     vscode.languages.registerCodeActionsProvider(
-        ["css", "less", "scss", "vue", "html", "javascript", "javascriptreact", "typescript", "typescriptreact"],
+        ["css", "less", "scss", "vue", "html", "javascript", "javascriptreact", "typescript", "typescriptreact", "markdown"],
         new ImagePathSnippet(),
         {
             providedCodeActionKinds: ImagePathSnippet.providedCodeActionKinds,
